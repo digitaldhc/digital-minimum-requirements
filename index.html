@@ -58,7 +58,11 @@
       repo: 'digitaldhc/digital-minimum-requirements',
       homepage: 'README.md',
       auto2top: true,
-      logo: '/_assets/dhc-logo.png'
+      logo: '/_assets/dhc-logo.png',
+      loadSidebar: true,
+            alias: {
+               '/.*/_sidebar.md': '/_sidebar.md' // use the same sidebar everywhere
+            }
     }
   </script>
   <!-- Docsify v4 -->

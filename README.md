@@ -17,3 +17,4 @@ DIMR applies to every contract for works, goods or services supplied to Dorset H
 
 ## Contributions
 * Please raise an [issue](https://github.com/digitaldhc/digital-minimum-requirements/issues)
+* DIMR owner: andrew.harrison11 (at) nhs.net
