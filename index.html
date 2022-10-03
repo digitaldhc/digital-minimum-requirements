@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@latest/dist/css/theme-simple.css">
+
+<!-- Custom theme styles -->
+    <style>
+        /**
+         * https://service-manual.nhs.uk/design-system/styles/typography 
+         * https://jhildenbiddle.github.io/docsify-themeable
+         */
+        @font-face {
+            font-display: swap;
+            font-family : "Frutiger W01";
+            font-style  : normal;
+            font-weight : 400;
+            src         : url(https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.eot?#iefix);
+            src         : url(https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.eot?#iefix) format("eot"), url(https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.woff2) format("woff2"), url(https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.woff) format("woff"), url(https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.ttf) format("truetype"), url(https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.svg#7def0e34-f28d-434f-b2ec-472bde847115) format("svg")
+        }
+
+        @font-face {
+            font-display: swap;
+            font-family : "Frutiger W01";
+            font-style  : normal;
+            font-weight : 600;
+            src         : url(https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.eot?#iefix);
+            src         : url(https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.eot?#iefix) format("eot"), url(https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.woff2) format("woff2"), url(https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.woff) format("woff"), url(https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.ttf) format("truetype"), url(https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.svg#eae74276-dd78-47e4-9b27-dac81c3411ca) format("svg")
+        }
+
+        :root {
+            --base-font-size: 16px;
+            --base-font-family: Frutiger W01, Arial, Sans-serif;
+            /*--sidebar-background: #005EB8;*/
+        }
+
+        .active {
+            font-weight:900 !important;
+            font-style: italic !important;
+        }
+
+        #_n4w5lqkr2 > tbody > tr > td:nth-child(1) {
+            font-style: bold !important;
+        }
+    </style>
+
+
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Dorset HealthCare Digital Minimum Requirements',
+      repo: 'digitaldhc/digital-minimum-requirements',
+      homepage: 'README.md',
+      auto2top: true,
+      logo: '/_assets/dhc-logo.png'
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
