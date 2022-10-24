@@ -3,8 +3,8 @@
 | DIMR\_EU\_1 | End user computing | The Trust’s standard end user computing environment uses recent versions of Windows 10 and Office 365. The solution MUST be compatible with these products. | Yes | Yes | |
 | DIMR\_EU\_2 | End user computing | The Trust's standard mobile operating system is Apple IOS, provided on recent versions of both the iPhone and iPad | | | Yes |
 | DIMR\_EU\_3 | End user computing | The solution provider MUST provide the Trust with a warranted environment specification, setting out all applicable end user computing requirements. It is expected that this document will be refreshed through the life of the contract | Yes | Yes | Yes |
-| DIMR\_EU\_4 | End user computing | The solution MUST be compatible with the enterprise single sign on product Imprivata Onesign | Yes | Yes | |
-| DIMR\_EU\_5 | End user computing | The solution provider MUST state any known incompatibility or conflict with any system or device listed on the Trust's business and clinical systems compatibility register | Yes | Yes | Yes |
+| DIMR\_EU\_4 | End user computing | DIMR\_EU\_4 is withdrawn | | | |
+| DIMR\_EU\_5 | End user computing | The solution provider MUST state any known incompatibility or conflict with any system or device listed on the Trust's business and clinical systems compatibility register, available on request. | Yes | Yes | Yes |
 | DIMR\_IN\_1 | Infrastructure assurance | The solution SHOULD BE compatible with modern authentication sources such as Azure Active Directory, oAuth or SAML. If the solution stores passwords itself it MUST do so using non-reversible encryption and the current good practice guidance on passwords issued by the National Cyber Security Centre | Yes | Yes | Yes |
 | DIMR\_IN\_2 | Infrastructure assurance | The solution MUST be highly available with an appropriate backup and data protection regime | Yes | | |
 | DIMR\_IN\_3 | Infrastructure assurance | If present as a feature, the solution MUST be capable of authenticated SMTP (username + password) to facilitate the automated sending of emails | Yes | Yes | Yes |
@@ -28,3 +28,5 @@
 | DIMR\_DA\_1 | Data management | The solution MUST facilitate access for reporting to allow integration with the Trust's data warehouse | Yes | Yes | Yes |
 | DIMR\_DA\_2 | Data management | The solution provider MUST provide database schema documentation | Yes | Yes | Yes |
 | DIMR\_DA\_3 | Data management | The solution provider MUST describe the solution's data portability capabilities in the event of the solution becoming surplus to the Trust's requirements, covering both migration and archival of data. | Yes | Yes | Yes |
+| DIMR\_DA\_4 | Data management | Where a solution provides a test environment, this MUST NOT by default use data from the live environment. Solution providers MUST be capable of providing adequate test data for use in test environments. | Yes | Yes | Yes |
+| DIMR\_DA\_5 | Data management | Where a solution produces logs, the solution SHOULD be capable of being configured for those logs to be retained for up to 180 days. The solution SHOULD further permit export to or extraction by modern security information and event management (SIEM) solutions. | Yes | Yes | Yes |
