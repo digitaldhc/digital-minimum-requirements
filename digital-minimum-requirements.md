@@ -23,7 +23,7 @@
 | DIMR\_IN\_13c | Infrastructure assurance | The solution MUST be hosted on premise [deprecated option, architectural approval required] | | Yes | |
 | DIMR\_AC\_1 | Accessibility | Public facing web solutions MUST be compliant with version 2.2 of the [Web Content Accessibility Guidelines (WCAG 2.2)](https://www.w3.org/TR/WCAG22/) | Yes | Yes | Yes |
 | DIMR\_AC\_2 | Accessibility | Non public facing web solutions SHOULD be compliant with version 2.2 of the [Web Content Accessibility Guidelines (WCAG 2.2)](https://www.w3.org/TR/WCAG22/) | Yes | Yes | Yes |
-| DIMR\_IA\_1 | Information assurance | The solution MUST be penetration tested on an annual basis with an appropriate statement assurance provided to the Trust | Yes | | Yes |
+| DIMR\_IA\_1 | Information assurance | The solution MUST be penetration tested on an annual basis with an appropriate statement of assurance provided to the Trust | Yes | | Yes |
 | DIMR\_IA\_2 | Information assurance | The solution provider MUST supply the Trust with an annual statement of alignment against the latest [OWASP Top Ten security risks](https://owasp.org/www-project-top-ten/) in support of objective B of the NHS Data Security and Protection Toolkit | Yes | | Yes |
 | DIMR\_IA\_3 | Information assurance | If not registered with the UK government digital marketplace under a current framework agreement, the solution provider MUST hold Cyber Essentials certification at a minimum | Yes | Yes | Yes |
 | DIMR\_IA\_4 | Information assurance | The solution provider MUST have either registered for and submitted the [NHS Data Security and Protection Toolkit](https://www.dsptoolkit.nhs.uk/), or be prepared to do so. | Yes | Yes | Yes |
