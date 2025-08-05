@@ -30,6 +30,8 @@
 | DIMR\_IN\_13a | Infrastructure assurance | The solution MUST be hosted remotely by the provider or MAY be hosted by a third party contracted by the provider [default option for DIMR_IN_13] | Yes | | |
 | DIMR\_IN\_13b | Infrastructure assurance | The solution SHOULD be hosted remotely by the provider or a third party contracted by the provider however the Trust MAY consider on-premise hosting in exceptional circumstances [non-default option, architectural approval required] | Yes | Yes | |
 | DIMR\_IN\_13c | Infrastructure assurance | The solution MUST be hosted on premise [deprecated option, architectural approval required] | | Yes | |
+| DIMR\_IN\_14 | Infrastructure assurance | Where the solution is hosted remotely, the solution provider MUST describe the hosting arrangements. Where these are public cloud they SHALL describe the cloud provider(s) and regions and/or availability zones from which the solution is provided. Where the hosting arrangements are otherwise they SHALL describe the nature of these and whether the applicable data centres align with the [Uptime Institute tier classification system](https://uptimeinstitute.com/tiers). | Yes | Yes | Yes |
+| DIMR\_IN\_15 | Infrastructure assurance | The solution provider MUST be able to describe its software supply chain and dependencies on third party solutions, and MUST be able to confirm that all such dependencies are maintained and receive security patches, and the solution provider's approach to these | Yes | Yes | Yes |
 
 ## Accessibility
 
@@ -44,20 +46,24 @@
 | --- | --- | --- | --- | --- | --- |
 | DIMR\_IA\_1 | Information assurance | The solution MUST be penetration tested on an annual basis by a [CREST accredited provider](https://www.crest-approved.org/), with an appropriate statement of assurance provided to the Trust | Yes | | Yes |
 | DIMR\_IA\_2 | Information assurance | The solution provider MUST supply the Trust with an annual statement of alignment against the latest [OWASP Top Ten security risks](https://owasp.org/www-project-top-ten/) in support of objective B of the NHS Data Security and Protection Toolkit | Yes | | Yes |
-| DIMR\_IA\_3 | Information assurance | If not registered with the UK government digital marketplace under a current framework agreement, the solution provider MUST hold Cyber Essentials certification at a minimum | Yes | Yes | Yes |
-| DIMR\_IA\_4 | Information assurance | The solution provider MUST have either registered for and submitted the [NHS Data Security and Protection Toolkit](https://www.dsptoolkit.nhs.uk/), or be prepared to do so. | Yes | Yes | Yes |
+| DIMR\_IA\_3 | Information assurance | The solution provider MUST describe its posture against common cyber security accreditations, including but not limited to Cyber Essentials, Cyber Essentials Plus and ISO/IEC 27001. The description MUST include the type of certification, issue and expiry date, certificate number (where applicable), scope and issuer | Yes | Yes | Yes |
+| DIMR\_IA\_4 | Information assurance | The solution provider MUST have either registered for and submitted the [NHS Data Security and Protection Toolkit](https://www.dsptoolkit.nhs.uk/), or be prepared to do so. In the event that the solution provider is registered for and has completed a Data Security and Protection Toolkit submission, it MUST state latest assessment date and outcome with relevant [Organisation Data Service (ODS)](https://digital.nhs.uk/services/organisation-data-service) code | Yes | Yes | Yes |
 | DIMR\_IA\_5 | Information assurance | The solution provider MUST NOT store data relating to individuals outside of the European Economic Area, or a jurisdiction that is on the [list of countries](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en) deemed by the European Commission to offer an adequate level of data protection in the context of the UK General Data Protection Regulation and the EU General Data Protection Regulation. The solution provider MUST describe all the relevant jurisdictions in which data relating to individuals is held and processed. | Yes | Yes | Yes |
 | DIMR\_IA\_6 | Information assurance | The solution provider MUST provide the Trust with details of its ICO registration number and contact details (including but not limited to name, email address and telephone number) of its data protection officer | Yes | Yes | Yes |
+| DIMA\_IA\_6a | Information assurance | The solution provider MUST describe whether it is or has ever been the subject of ICO enforcement action  | Yes | Yes | Yes |
 | DIMR\_IA\_7 | Information assurance | The solution provider MUST be able to enumerate its data flows with regard to the Trust and provide the Trust with a high level data flow description and diagram | | Yes | Yes |
 | DIMR\_IA\_8 | Information assurance | The solution SHOULD be developed in accordance with the principles of [Security-by-Design](https://www.security.gov.uk/policy-and-guidance/secure-by-design/principles/) and [Security-by-Default](https://www.ncsc.gov.uk/information/secure-default), and the solution provider SHOULD be able to evidence this | Yes | Yes | Yes |
 | DIMR\_IA\_9 | Information assurance | Where a solution makes use of artificial intelligence, this MUST be in accordance with the government's [Code of Practice for the Cyber Security of AI](https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai) | Yes | Yes | Yes |
 | DIMR\_IA\_10 | Information assurance | The solution MUST have been assessed against the NHS England [Digital Technology Assessment Criteria (DTAC)](https://transform.england.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/) | Yes | Yes | Yes |
+| DIMR\_IA\_11 | Information assurance | The solution provider MUST understand and be able to articulate any dependencies it as a provider may have on third parties that may affect its ability to deliver the contracted solution or service | Yes | Yes | Yes |
+| DIMR\_IA\_12 | Information assurance | The solution provider MUST undertake to engage in a productive manner during business continuity incidents and SHOULD undertake to engage with periodic business continuity exercises where these are pertinent to the contracted solution or service | Yes | Yes | Yes |
 
 ## Commercial
 
 | DIMR menu item | DIMR domain | DIMR statement | Hosted | On prem | Mobile |
 | --- | --- | --- | --- | --- | --- |
 | DIMR\_CO\_1 | Commercial | Where applicable, the solution provider MUST provide the Trust with details of available licensing options, and any separately licensable components | Yes | Yes | Yes |
+
 
 ## Data management
 
