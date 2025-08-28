@@ -1,3 +1,7 @@
+# Digital minimum requirements menu
+
+## End user computing
+
 | DIMR menu item | DIMR domain | DIMR statement | Hosted | On prem | Mobile |
 | --- | --- | --- | --- | --- | --- |
 | DIMR\_EU\_1 | End user computing | The Trust’s standard end user computing environment uses recent versions of Windows 10, Windows 11 and Office 365. The solution MUST be compatible with these products. | Yes | Yes | |
@@ -6,6 +10,11 @@
 | DIMR\_EU\_3 | End user computing | The solution provider MUST provide the Trust with a warranted environment specification, setting out all applicable end user computing requirements. It is expected that this document will be refreshed through the life of the contract | Yes | Yes | Yes |
 | DIMR\_EU\_4 | End user computing | DIMR\_EU\_4 is withdrawn | | | |
 | DIMR\_EU\_5 | End user computing | The solution provider MUST state any known incompatibility or conflict with any system or device listed on the Trust's business and clinical systems compatibility register, available on request. | Yes | Yes | Yes |
+
+## Infrastructure assurance
+
+| DIMR menu item | DIMR domain | DIMR statement | Hosted | On prem | Mobile |
+| --- | --- | --- | --- | --- | --- |
 | DIMR\_IN\_1 | Infrastructure assurance | The solution MUST BE compatible with modern authentication sources such as Microsoft Entra ID. If the solution stores passwords itself it MUST do so using non-reversible encryption and the current good practice guidance on passwords issued by the National Cyber Security Centre | Yes | Yes | Yes |
 | DIMR\_IN\_2 | Infrastructure assurance | The solution MUST be highly available with an appropriate backup and data protection regime. The solution provider MUST describe at a high level the high availability and data backup arrangements, including relevant recovery point and time objectives. | Yes | | |
 | DIMR\_IN\_3 | Infrastructure assurance | If the solution requires an external SMTP server, it MUST be capable of a connection to an authenticated SMTP server (username + password) to facilitate the automated sending of emails | Yes | Yes | Yes |
@@ -21,18 +30,45 @@
 | DIMR\_IN\_13a | Infrastructure assurance | The solution MUST be hosted remotely by the provider or MAY be hosted by a third party contracted by the provider [default option for DIMR_IN_13] | Yes | | |
 | DIMR\_IN\_13b | Infrastructure assurance | The solution SHOULD be hosted remotely by the provider or a third party contracted by the provider however the Trust MAY consider on-premise hosting in exceptional circumstances [non-default option, architectural approval required] | Yes | Yes | |
 | DIMR\_IN\_13c | Infrastructure assurance | The solution MUST be hosted on premise [deprecated option, architectural approval required] | | Yes | |
+| DIMR\_IN\_14 | Infrastructure assurance | Where the solution is hosted remotely, the solution provider MUST describe the hosting arrangements. Where these are public cloud they SHALL describe the cloud provider(s) and regions and/or availability zones from which the solution is provided. Where the hosting arrangements are otherwise they SHALL describe the nature of these and whether the applicable data centres align with the [Uptime Institute tier classification system](https://uptimeinstitute.com/tiers). | Yes | Yes | Yes |
+| DIMR\_IN\_15 | Infrastructure assurance | The solution provider MUST be able to describe its software supply chain and dependencies on third party solutions, and MUST be able to confirm that all such dependencies are maintained and receive security patches, and the solution provider's approach to these | Yes | Yes | Yes |
+
+## Accessibility
+
+| DIMR menu item | DIMR domain | DIMR statement | Hosted | On prem | Mobile |
+| --- | --- | --- | --- | --- | --- |
 | DIMR\_AC\_1 | Accessibility | Public facing web solutions MUST be compliant with version 2.2 of the [Web Content Accessibility Guidelines (WCAG 2.2)](https://www.w3.org/TR/WCAG22/) | Yes | Yes | Yes |
 | DIMR\_AC\_2 | Accessibility | Non public facing web solutions SHOULD be compliant with version 2.2 of the [Web Content Accessibility Guidelines (WCAG 2.2)](https://www.w3.org/TR/WCAG22/) | Yes | Yes | Yes |
-| DIMR\_IA\_1 | Information assurance | The solution MUST be penetration tested on an annual basis with an appropriate statement of assurance provided to the Trust | Yes | | Yes |
+
+## Information assurance
+
+| DIMR menu item | DIMR domain | DIMR statement | Hosted | On prem | Mobile |
+| --- | --- | --- | --- | --- | --- |
+| DIMR\_IA\_1 | Information assurance | The solution MUST be penetration tested on an annual basis by a [CREST accredited provider](https://www.crest-approved.org/), with an appropriate statement of assurance provided to the Trust | Yes | | Yes |
 | DIMR\_IA\_2 | Information assurance | The solution provider MUST supply the Trust with an annual statement of alignment against the latest [OWASP Top Ten security risks](https://owasp.org/www-project-top-ten/) in support of objective B of the NHS Data Security and Protection Toolkit | Yes | | Yes |
-| DIMR\_IA\_3 | Information assurance | If not registered with the UK government digital marketplace under a current framework agreement, the solution provider MUST hold Cyber Essentials certification at a minimum | Yes | Yes | Yes |
-| DIMR\_IA\_4 | Information assurance | The solution provider MUST have either registered for and submitted the [NHS Data Security and Protection Toolkit](https://www.dsptoolkit.nhs.uk/), or be prepared to do so. | Yes | Yes | Yes |
+| DIMR\_IA\_3 | Information assurance | The solution provider MUST describe its posture against common cyber security accreditations, including but not limited to Cyber Essentials, Cyber Essentials Plus and ISO/IEC 27001. The description MUST include the type of certification, issue and expiry date, certificate number (where applicable), scope and issuer | Yes | Yes | Yes |
+| DIMR\_IA\_4 | Information assurance | The solution provider MUST have either registered for and submitted the [NHS Data Security and Protection Toolkit](https://www.dsptoolkit.nhs.uk/), or be prepared to do so. In the event that the solution provider is registered for and has completed a Data Security and Protection Toolkit submission, it MUST state latest assessment date and outcome with relevant [Organisation Data Service (ODS)](https://digital.nhs.uk/services/organisation-data-service) code | Yes | Yes | Yes |
 | DIMR\_IA\_5 | Information assurance | The solution provider MUST NOT store data relating to individuals outside of the European Economic Area, or a jurisdiction that is on the [list of countries](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en) deemed by the European Commission to offer an adequate level of data protection in the context of the UK General Data Protection Regulation and the EU General Data Protection Regulation. The solution provider MUST describe all the relevant jurisdictions in which data relating to individuals is held and processed. | Yes | Yes | Yes |
-| DIMR\_IA\_6 | Information assurance | The solution provider MUST provide the Trust with details of its ICO registration number and name and contact details of its data protection officer | Yes | Yes | Yes |
+| DIMR\_IA\_6 | Information assurance | The solution provider MUST provide the Trust with details of its ICO registration number and contact details (including but not limited to name, email address and telephone number) of its data protection officer | Yes | Yes | Yes |
+| DIMA\_IA\_6a | Information assurance | The solution provider MUST describe whether it is or has ever been the subject of ICO enforcement action  | Yes | Yes | Yes |
 | DIMR\_IA\_7 | Information assurance | The solution provider MUST be able to enumerate its data flows with regard to the Trust and provide the Trust with a high level data flow description and diagram | | Yes | Yes |
 | DIMR\_IA\_8 | Information assurance | The solution SHOULD be developed in accordance with the principles of [Security-by-Design](https://www.security.gov.uk/policy-and-guidance/secure-by-design/principles/) and [Security-by-Default](https://www.ncsc.gov.uk/information/secure-default), and the solution provider SHOULD be able to evidence this | Yes | Yes | Yes |
 | DIMR\_IA\_9 | Information assurance | Where a solution makes use of artificial intelligence, this MUST be in accordance with the government's [Code of Practice for the Cyber Security of AI](https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai) | Yes | Yes | Yes |
+| DIMR\_IA\_10 | Information assurance | The solution MUST have been assessed against the NHS England [Digital Technology Assessment Criteria (DTAC)](https://transform.england.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/) | Yes | Yes | Yes |
+| DIMR\_IA\_11 | Information assurance | The solution provider MUST understand and be able to articulate any dependencies it as a provider may have on third parties that may affect its ability to deliver the contracted solution or service | Yes | Yes | Yes |
+| DIMR\_IA\_12 | Information assurance | The solution provider MUST undertake to engage in a productive manner during business continuity incidents and SHOULD undertake to engage with periodic business continuity exercises where these are pertinent to the contracted solution or service | Yes | Yes | Yes |
+
+## Commercial
+
+| DIMR menu item | DIMR domain | DIMR statement | Hosted | On prem | Mobile |
+| --- | --- | --- | --- | --- | --- |
 | DIMR\_CO\_1 | Commercial | Where applicable, the solution provider MUST provide the Trust with details of available licensing options, and any separately licensable components | Yes | Yes | Yes |
+
+
+## Data management
+
+| DIMR menu item | DIMR domain | DIMR statement | Hosted | On prem | Mobile |
+| --- | --- | --- | --- | --- | --- |
 | DIMR\_DA\_1 | Data management | The solution MUST facilitate access for reporting to allow integration with the Trust's data warehouse | Yes | Yes | Yes |
 | DIMR\_DA\_2 | Data management | The solution provider MUST provide database schema documentation | Yes | Yes | Yes |
 | DIMR\_DA\_3 | Data management | The solution provider MUST describe the solution's data portability capabilities in the event of the solution becoming surplus to the Trust's requirements, covering both migration and archival of data. | Yes | Yes | Yes |
